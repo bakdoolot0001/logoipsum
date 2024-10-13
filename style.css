@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin-inline: auto;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #696871;
+  margin: 0 15px;
+}
+
+.header-nav a:hover {
+  color: #5454d4;
+  border-bottom: 2px solid #5454d4;
+  transition: 0.5s;
+}
+
+.header button {
+  width: 211px;
+  height: 60px;
+  background: #ff7143;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+/* HEADER */
+
+/* HERO */
+
+#hero {
+  padding-top: 100px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text h1 {
+  font-size: 45px;
+}
+
+.hero-text p {
+  margin: 15px 0;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.btns a {font-size: 30px;}
+
+.firstbtn {
+  width: 211px;
+  height: 60px;
+  background: #5454d4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.lastbtn {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 60px;  
+}
+
+/* HERO */
+
+/* BRANDS */
+
+.brands {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.brands img {
+  width: 150px;
+  height: 30px;
+}
+
+/* BRANDS */
+
+/* INDEX */
+.index {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.index h1 {
+  font-size: 45px;
+}
+
+.index p {
+  margin: 15px 0;
+  line-height: 30px;
+}
+
+.index a {
+  text-decoration: none;
+}
+
+/* INDEX */
+
+/* METRICS */
+
+.metrics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.metrics h1 {
+  font-size: 45px;
+}
+
+.metrics p {
+  margin: 15px 0;
+  line-height: 30px;
+}
+
+.metrics a {
+  text-decoration: none;
+}
+
+/* METRICS */
+
+/* CARDS */
+.hards-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hards-block img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 90px;
+  padding-left: 90px;
+}
+
+#cards {
+  padding-top: 40px;
+}
+
+.card img {transition: 0.8s}
+
+.card:hover img {
+  transform: translateY(-50px);
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.card-text p {
+  text-align: center;
+  line-height: 30px;
+}
+
+p {
+  color: #696871;
+}
+
+a {
+  color: blue;
+}
+
+/* CARDS */
+
+/* PRICE */
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.price-text h1 {
+  font-size: 45px;
+}
+
+.price button:first-child {
+  color: white;
+  background: #5454d4;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  padding: 10px 40px;
+}
+
+.price button:last-child {
+  color: black;
+  background: #00000012;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 40px;
+}
+
+/* PRICE */
+
+/* PRICE-CARDS */
+
+.price-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #00000012;
+  width: 330px;
+  height: 440px;
+  gap: 40px;
+  border-radius: 15px;
+  transition: 0.8s
+}
+
+.prices button {
+  padding: 10px 70px;
+  color: blue;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.prices:hover {
+  background: #FF7143;
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
+.prices button:hover {
+  background: #9F3919;
+  color: white;
+  transition: 0.5s;
+}
+
+.prices:hover h1 {
+  color: white;
+  transition: 0.8s;
+}
+
+.prices:hover p {
+  color: white;
+  transition: 0.8s;
+}
+
+/* PRICE-CARDS */
+
+/* FOOTER */
+
+#fuuter {
+  width: 100%;
+  padding-block: 40px;
+  margin-top: 20px;
+  background: black;
+}
+.fuuter h1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FOOTER */
